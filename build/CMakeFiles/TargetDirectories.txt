@@ -1,0 +1,3 @@
+/home/zshong/lowkey-compiler/build/CMakeFiles/lowkey.dir
+/home/zshong/lowkey-compiler/build/CMakeFiles/edit_cache.dir
+/home/zshong/lowkey-compiler/build/CMakeFiles/rebuild_cache.dir
