@@ -81,12 +81,12 @@ clean: CMakeFiles/lowkey.dir/clean
 CMakeFiles/lowkey.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lowkey.dir/build.make CMakeFiles/lowkey.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lowkey.dir/build.make CMakeFiles/lowkey.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/zshong/lowkey-compiler/build/CMakeFiles --progress-num=1,2 "Built target lowkey"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/zshong/lowkey-compiler/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target lowkey"
 .PHONY : CMakeFiles/lowkey.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/lowkey.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zshong/lowkey-compiler/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zshong/lowkey-compiler/build/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/lowkey.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zshong/lowkey-compiler/build/CMakeFiles 0
 .PHONY : CMakeFiles/lowkey.dir/rule

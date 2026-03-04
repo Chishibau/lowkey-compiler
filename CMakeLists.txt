@@ -4,4 +4,8 @@ project(lowkey-compiler)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(lowkey src/main.cpp)
+add_executable(lowkey 
+                src/main.cpp
+                src/chunk.cpp
+                src/debug.cpp
+                src/memory.cpp)

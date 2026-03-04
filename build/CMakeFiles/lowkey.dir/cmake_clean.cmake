@@ -1,6 +1,12 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/lowkey.dir/src/chunk.cpp.o"
+  "CMakeFiles/lowkey.dir/src/chunk.cpp.o.d"
+  "CMakeFiles/lowkey.dir/src/debug.cpp.o"
+  "CMakeFiles/lowkey.dir/src/debug.cpp.o.d"
   "CMakeFiles/lowkey.dir/src/main.cpp.o"
   "CMakeFiles/lowkey.dir/src/main.cpp.o.d"
+  "CMakeFiles/lowkey.dir/src/memory.cpp.o"
+  "CMakeFiles/lowkey.dir/src/memory.cpp.o.d"
   "lowkey"
   "lowkey.pdb"
 )

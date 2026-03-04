@@ -129,6 +129,54 @@ lowkey/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lowkey.dir/build.make CMakeFiles/lowkey.dir/build
 .PHONY : lowkey/fast
 
+src/chunk.o: src/chunk.cpp.o
+.PHONY : src/chunk.o
+
+# target to build an object file
+src/chunk.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lowkey.dir/build.make CMakeFiles/lowkey.dir/src/chunk.cpp.o
+.PHONY : src/chunk.cpp.o
+
+src/chunk.i: src/chunk.cpp.i
+.PHONY : src/chunk.i
+
+# target to preprocess a source file
+src/chunk.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lowkey.dir/build.make CMakeFiles/lowkey.dir/src/chunk.cpp.i
+.PHONY : src/chunk.cpp.i
+
+src/chunk.s: src/chunk.cpp.s
+.PHONY : src/chunk.s
+
+# target to generate assembly for a file
+src/chunk.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lowkey.dir/build.make CMakeFiles/lowkey.dir/src/chunk.cpp.s
+.PHONY : src/chunk.cpp.s
+
+src/debug.o: src/debug.cpp.o
+.PHONY : src/debug.o
+
+# target to build an object file
+src/debug.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lowkey.dir/build.make CMakeFiles/lowkey.dir/src/debug.cpp.o
+.PHONY : src/debug.cpp.o
+
+src/debug.i: src/debug.cpp.i
+.PHONY : src/debug.i
+
+# target to preprocess a source file
+src/debug.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lowkey.dir/build.make CMakeFiles/lowkey.dir/src/debug.cpp.i
+.PHONY : src/debug.cpp.i
+
+src/debug.s: src/debug.cpp.s
+.PHONY : src/debug.s
+
+# target to generate assembly for a file
+src/debug.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lowkey.dir/build.make CMakeFiles/lowkey.dir/src/debug.cpp.s
+.PHONY : src/debug.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -153,6 +201,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lowkey.dir/build.make CMakeFiles/lowkey.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/memory.o: src/memory.cpp.o
+.PHONY : src/memory.o
+
+# target to build an object file
+src/memory.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lowkey.dir/build.make CMakeFiles/lowkey.dir/src/memory.cpp.o
+.PHONY : src/memory.cpp.o
+
+src/memory.i: src/memory.cpp.i
+.PHONY : src/memory.i
+
+# target to preprocess a source file
+src/memory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lowkey.dir/build.make CMakeFiles/lowkey.dir/src/memory.cpp.i
+.PHONY : src/memory.cpp.i
+
+src/memory.s: src/memory.cpp.s
+.PHONY : src/memory.s
+
+# target to generate assembly for a file
+src/memory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lowkey.dir/build.make CMakeFiles/lowkey.dir/src/memory.cpp.s
+.PHONY : src/memory.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,9 +234,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... lowkey"
+	@echo "... src/chunk.o"
+	@echo "... src/chunk.i"
+	@echo "... src/chunk.s"
+	@echo "... src/debug.o"
+	@echo "... src/debug.i"
+	@echo "... src/debug.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/memory.o"
+	@echo "... src/memory.i"
+	@echo "... src/memory.s"
 .PHONY : help
 
 

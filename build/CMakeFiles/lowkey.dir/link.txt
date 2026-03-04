@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/lowkey.dir/src/main.cpp.o -o lowkey 
+/usr/bin/c++ -g CMakeFiles/lowkey.dir/src/main.cpp.o CMakeFiles/lowkey.dir/src/chunk.cpp.o CMakeFiles/lowkey.dir/src/debug.cpp.o CMakeFiles/lowkey.dir/src/memory.cpp.o -o lowkey 

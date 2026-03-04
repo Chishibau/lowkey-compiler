@@ -5,7 +5,7 @@
 void* reallocate(void* pointer, size_t oldSize, size_t newSize) {
     // free memory if newSize is 0
     if (newSize == 0) {
-        delete(pointer);
+        free(pointer);
         return nullptr;
     }
 

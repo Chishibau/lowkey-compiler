@@ -1,11 +1,7 @@
-#ifndef lowkey_chunk_h
-#define lowkey_chunk_h
+#pragma once
 
 #include "common.h"
-
-enum class OpCode {
-    OP_RETURN,
-};
+#include "opcode.h"
 
 class Chunk {
 public:
@@ -13,11 +9,12 @@ public:
     void reset();
     void write(uint8_t byte);
     void free();
+    int getCount();
+    int getCapacity();
+    uint8_t* getCode();
 
 private:
     int count;
     int capacity;
     uint8_t* code;
 };
-
-#endif

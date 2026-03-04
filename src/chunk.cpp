@@ -30,3 +30,16 @@ void Chunk::free() {
     FREE_ARRAY(uint8_t, this->code, this->capacity);
     this->reset();
 }
+
+
+int Chunk::getCount() {
+    return this->count;
+}
+
+int Chunk::getCapacity() {
+    return this->capacity;
+}
+
+uint8_t* Chunk::getCode() {
+    return this->code;
+}
