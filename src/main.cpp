@@ -5,11 +5,16 @@
 
 int main(int argc, char* argv[]) {
     Chunk* chunk = new Chunk();
-    chunk->write(OpCode::OP_RETURN);
+    int constant = chunk->addConstant(1.2);
+
+    chunk->write(OP_CONSTANT);
+    chunk->write(constant);
+    chunk->write(OP_RETURN);
 
     disassembleChunk(chunk, "test chunk");
 
-    chunk->free();
+    delete(chunk);
+
     return 0;
 }
 

@@ -1,6 +1,6 @@
-CMakeFiles/lowkey.dir/src/main.cpp.o: \
- /home/zshong/lowkey-compiler/src/main.cpp /usr/include/stdc-predef.h \
- /usr/include/c++/13/iostream /usr/include/c++/13/bits/requires_hosted.h \
+CMakeFiles/lowkey.dir/src/main.cpp.o: /root/lowkey-compiler/src/main.cpp \
+ /usr/include/stdc-predef.h /usr/include/c++/13/iostream \
+ /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -153,12 +153,14 @@ CMakeFiles/lowkey.dir/src/main.cpp.o: \
  /usr/include/c++/13/bits/locale_facets.tcc \
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
- /usr/include/c++/13/bits/istream.tcc \
- /home/zshong/lowkey-compiler/src/common.h \
+ /usr/include/c++/13/bits/istream.tcc /root/lowkey-compiler/src/common.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
- /home/zshong/lowkey-compiler/src/chunk.h \
- /home/zshong/lowkey-compiler/src/opcode.h \
- /home/zshong/lowkey-compiler/src/debug.h
+ /usr/include/c++/13/vector /usr/include/c++/13/bits/stl_uninitialized.h \
+ /usr/include/c++/13/bits/stl_vector.h \
+ /usr/include/c++/13/bits/stl_bvector.h \
+ /usr/include/c++/13/bits/vector.tcc /root/lowkey-compiler/src/chunk.h \
+ /root/lowkey-compiler/src/opcode.h /root/lowkey-compiler/src/value.h \
+ /root/lowkey-compiler/src/debug.h

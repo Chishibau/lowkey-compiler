@@ -130,8 +130,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/home/zshong/lowkey-compiler/build",
-		"source" : "/home/zshong/lowkey-compiler"
+		"build" : "/root/lowkey-compiler/build",
+		"source" : "/root/lowkey-compiler"
 	},
 	"version" : 
 	{

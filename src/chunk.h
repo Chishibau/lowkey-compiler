@@ -2,19 +2,15 @@
 
 #include "common.h"
 #include "opcode.h"
+#include "value.h"
 
+// represents a chunk of bytecodes and contains an array of constants
 class Chunk {
 public:
-    Chunk();
-    void reset();
-    void write(uint8_t byte);
-    void free();
-    int getCount();
-    int getCapacity();
-    uint8_t* getCode();
+    std::vector<uint8_t> code;
+    std::vector<Value> constants;
 
-private:
-    int count;
-    int capacity;
-    uint8_t* code;
+    Chunk();
+    void write(uint8_t byte);
+    int addConstant(Value value);
 };

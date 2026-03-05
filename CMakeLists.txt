@@ -8,4 +8,5 @@ add_executable(lowkey
                 src/main.cpp
                 src/chunk.cpp
                 src/debug.cpp
-                src/memory.cpp)
+                src/memory.cpp
+                src/value.cpp)

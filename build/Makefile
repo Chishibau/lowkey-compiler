@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zshong/lowkey-compiler
+CMAKE_SOURCE_DIR = /root/lowkey-compiler
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zshong/lowkey-compiler/build
+CMAKE_BINARY_DIR = /root/lowkey-compiler/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zshong/lowkey-compiler/build/CMakeFiles /home/zshong/lowkey-compiler/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/lowkey-compiler/build/CMakeFiles /root/lowkey-compiler/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zshong/lowkey-compiler/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/lowkey-compiler/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -225,6 +225,30 @@ src/memory.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lowkey.dir/build.make CMakeFiles/lowkey.dir/src/memory.cpp.s
 .PHONY : src/memory.cpp.s
 
+src/value.o: src/value.cpp.o
+.PHONY : src/value.o
+
+# target to build an object file
+src/value.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lowkey.dir/build.make CMakeFiles/lowkey.dir/src/value.cpp.o
+.PHONY : src/value.cpp.o
+
+src/value.i: src/value.cpp.i
+.PHONY : src/value.i
+
+# target to preprocess a source file
+src/value.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lowkey.dir/build.make CMakeFiles/lowkey.dir/src/value.cpp.i
+.PHONY : src/value.cpp.i
+
+src/value.s: src/value.cpp.s
+.PHONY : src/value.s
+
+# target to generate assembly for a file
+src/value.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lowkey.dir/build.make CMakeFiles/lowkey.dir/src/value.cpp.s
+.PHONY : src/value.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -246,6 +270,9 @@ help:
 	@echo "... src/memory.o"
 	@echo "... src/memory.i"
 	@echo "... src/memory.s"
+	@echo "... src/value.o"
+	@echo "... src/value.i"
+	@echo "... src/value.s"
 .PHONY : help
 
 

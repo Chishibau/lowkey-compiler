@@ -1,5 +1,5 @@
-CMakeFiles/lowkey.dir/src/debug.cpp.o: \
- /root/lowkey-compiler/src/debug.cpp /usr/include/stdc-predef.h \
+CMakeFiles/lowkey.dir/src/value.cpp.o: \
+ /root/lowkey-compiler/src/value.cpp /usr/include/stdc-predef.h \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -24,8 +24,7 @@ CMakeFiles/lowkey.dir/src/debug.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
- /root/lowkey-compiler/src/debug.h /root/lowkey-compiler/src/chunk.h \
- /root/lowkey-compiler/src/common.h \
+ /root/lowkey-compiler/src/memory.h /root/lowkey-compiler/src/common.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
@@ -82,4 +81,4 @@ CMakeFiles/lowkey.dir/src/debug.cpp.o: \
  /usr/include/c++/13/bits/ranges_util.h \
  /usr/include/c++/13/bits/ranges_base.h \
  /usr/include/c++/13/bits/max_size_type.h /usr/include/c++/13/numbers \
- /root/lowkey-compiler/src/opcode.h /root/lowkey-compiler/src/value.h
+ /root/lowkey-compiler/src/value.h

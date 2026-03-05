@@ -5,4 +5,6 @@
 enum OpCode : uint8_t {
     // operand: none
     OP_RETURN,
+    // operand: index for constant
+    OP_CONSTANT,
 };
