@@ -13,6 +13,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/zshong/lowkey-compiler/src/main.cpp" "CMakeFiles/lowkey.dir/src/main.cpp.o" "gcc" "CMakeFiles/lowkey.dir/src/main.cpp.o.d"
   "/home/zshong/lowkey-compiler/src/memory.cpp" "CMakeFiles/lowkey.dir/src/memory.cpp.o" "gcc" "CMakeFiles/lowkey.dir/src/memory.cpp.o.d"
   "/home/zshong/lowkey-compiler/src/value.cpp" "CMakeFiles/lowkey.dir/src/value.cpp.o" "gcc" "CMakeFiles/lowkey.dir/src/value.cpp.o.d"
+  "/home/zshong/lowkey-compiler/src/vm.cpp" "CMakeFiles/lowkey.dir/src/vm.cpp.o" "gcc" "CMakeFiles/lowkey.dir/src/vm.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

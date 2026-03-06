@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/lowkey.dir/src/memory.cpp.o.d"
   "CMakeFiles/lowkey.dir/src/value.cpp.o"
   "CMakeFiles/lowkey.dir/src/value.cpp.o.d"
+  "CMakeFiles/lowkey.dir/src/vm.cpp.o"
+  "CMakeFiles/lowkey.dir/src/vm.cpp.o.d"
   "lowkey"
   "lowkey.pdb"
 )

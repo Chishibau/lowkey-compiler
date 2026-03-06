@@ -166,4 +166,5 @@ CMakeFiles/lowkey.dir/src/main.cpp.o: \
  /home/zshong/lowkey-compiler/src/chunk.h \
  /home/zshong/lowkey-compiler/src/opcode.h \
  /home/zshong/lowkey-compiler/src/value.h \
- /home/zshong/lowkey-compiler/src/debug.h
+ /home/zshong/lowkey-compiler/src/debug.h \
+ /home/zshong/lowkey-compiler/src/vm.h

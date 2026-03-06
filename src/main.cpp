@@ -2,8 +2,10 @@
 #include "common.h"
 #include "chunk.h"
 #include "debug.h"
+#include "vm.h"
 
 int main(int argc, char* argv[]) {
+    VM* vm = new VM();
     Chunk* chunk = new Chunk();
     int constant = chunk->addConstant(1.2);
 
@@ -14,6 +16,7 @@ int main(int argc, char* argv[]) {
     disassembleChunk(chunk, "test chunk");
 
     delete(chunk);
+    delete(vm);
 
     return 0;
 }
