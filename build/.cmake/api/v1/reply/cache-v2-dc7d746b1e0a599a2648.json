@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/root/lowkey-compiler/build"
+			"value" : "/home/zshong/lowkey-compiler/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -547,7 +547,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/root/lowkey-compiler/build/CMakeFiles/pkgRedirects"
+			"value" : "/home/zshong/lowkey-compiler/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -607,7 +607,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/root/lowkey-compiler"
+			"value" : "/home/zshong/lowkey-compiler"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1171,7 +1171,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/root/lowkey-compiler/build"
+			"value" : "/home/zshong/lowkey-compiler/build"
 		},
 		{
 			"name" : "lowkey-compiler_IS_TOP_LEVEL",
@@ -1195,7 +1195,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/root/lowkey-compiler"
+			"value" : "/home/zshong/lowkey-compiler"
 		}
 	],
 	"kind" : "cache",

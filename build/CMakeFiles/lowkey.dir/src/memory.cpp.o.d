@@ -1,5 +1,5 @@
 CMakeFiles/lowkey.dir/src/memory.cpp.o: \
- /root/lowkey-compiler/src/memory.cpp /usr/include/stdc-predef.h \
+ /home/zshong/lowkey-compiler/src/memory.cpp /usr/include/stdc-predef.h \
  /usr/include/c++/13/stdlib.h /usr/include/c++/13/cstdlib \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -46,8 +46,9 @@ CMakeFiles/lowkey.dir/src/memory.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
- /usr/include/c++/13/bits/std_abs.h /root/lowkey-compiler/src/memory.h \
- /root/lowkey-compiler/src/common.h \
+ /usr/include/c++/13/bits/std_abs.h \
+ /home/zshong/lowkey-compiler/src/memory.h \
+ /home/zshong/lowkey-compiler/src/common.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \

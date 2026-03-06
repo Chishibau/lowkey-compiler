@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/lowkey-compiler
+CMAKE_SOURCE_DIR = /home/zshong/lowkey-compiler
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/lowkey-compiler/build
+CMAKE_BINARY_DIR = /home/zshong/lowkey-compiler/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/lowkey.dir/depend.make
@@ -70,74 +70,74 @@ include CMakeFiles/lowkey.dir/progress.make
 include CMakeFiles/lowkey.dir/flags.make
 
 CMakeFiles/lowkey.dir/src/main.cpp.o: CMakeFiles/lowkey.dir/flags.make
-CMakeFiles/lowkey.dir/src/main.cpp.o: /root/lowkey-compiler/src/main.cpp
+CMakeFiles/lowkey.dir/src/main.cpp.o: /home/zshong/lowkey-compiler/src/main.cpp
 CMakeFiles/lowkey.dir/src/main.cpp.o: CMakeFiles/lowkey.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/lowkey-compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lowkey.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lowkey.dir/src/main.cpp.o -MF CMakeFiles/lowkey.dir/src/main.cpp.o.d -o CMakeFiles/lowkey.dir/src/main.cpp.o -c /root/lowkey-compiler/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zshong/lowkey-compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lowkey.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lowkey.dir/src/main.cpp.o -MF CMakeFiles/lowkey.dir/src/main.cpp.o.d -o CMakeFiles/lowkey.dir/src/main.cpp.o -c /home/zshong/lowkey-compiler/src/main.cpp
 
 CMakeFiles/lowkey.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lowkey.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/lowkey-compiler/src/main.cpp > CMakeFiles/lowkey.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zshong/lowkey-compiler/src/main.cpp > CMakeFiles/lowkey.dir/src/main.cpp.i
 
 CMakeFiles/lowkey.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lowkey.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/lowkey-compiler/src/main.cpp -o CMakeFiles/lowkey.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zshong/lowkey-compiler/src/main.cpp -o CMakeFiles/lowkey.dir/src/main.cpp.s
 
 CMakeFiles/lowkey.dir/src/chunk.cpp.o: CMakeFiles/lowkey.dir/flags.make
-CMakeFiles/lowkey.dir/src/chunk.cpp.o: /root/lowkey-compiler/src/chunk.cpp
+CMakeFiles/lowkey.dir/src/chunk.cpp.o: /home/zshong/lowkey-compiler/src/chunk.cpp
 CMakeFiles/lowkey.dir/src/chunk.cpp.o: CMakeFiles/lowkey.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/lowkey-compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lowkey.dir/src/chunk.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lowkey.dir/src/chunk.cpp.o -MF CMakeFiles/lowkey.dir/src/chunk.cpp.o.d -o CMakeFiles/lowkey.dir/src/chunk.cpp.o -c /root/lowkey-compiler/src/chunk.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zshong/lowkey-compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lowkey.dir/src/chunk.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lowkey.dir/src/chunk.cpp.o -MF CMakeFiles/lowkey.dir/src/chunk.cpp.o.d -o CMakeFiles/lowkey.dir/src/chunk.cpp.o -c /home/zshong/lowkey-compiler/src/chunk.cpp
 
 CMakeFiles/lowkey.dir/src/chunk.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lowkey.dir/src/chunk.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/lowkey-compiler/src/chunk.cpp > CMakeFiles/lowkey.dir/src/chunk.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zshong/lowkey-compiler/src/chunk.cpp > CMakeFiles/lowkey.dir/src/chunk.cpp.i
 
 CMakeFiles/lowkey.dir/src/chunk.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lowkey.dir/src/chunk.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/lowkey-compiler/src/chunk.cpp -o CMakeFiles/lowkey.dir/src/chunk.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zshong/lowkey-compiler/src/chunk.cpp -o CMakeFiles/lowkey.dir/src/chunk.cpp.s
 
 CMakeFiles/lowkey.dir/src/debug.cpp.o: CMakeFiles/lowkey.dir/flags.make
-CMakeFiles/lowkey.dir/src/debug.cpp.o: /root/lowkey-compiler/src/debug.cpp
+CMakeFiles/lowkey.dir/src/debug.cpp.o: /home/zshong/lowkey-compiler/src/debug.cpp
 CMakeFiles/lowkey.dir/src/debug.cpp.o: CMakeFiles/lowkey.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/lowkey-compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lowkey.dir/src/debug.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lowkey.dir/src/debug.cpp.o -MF CMakeFiles/lowkey.dir/src/debug.cpp.o.d -o CMakeFiles/lowkey.dir/src/debug.cpp.o -c /root/lowkey-compiler/src/debug.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zshong/lowkey-compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lowkey.dir/src/debug.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lowkey.dir/src/debug.cpp.o -MF CMakeFiles/lowkey.dir/src/debug.cpp.o.d -o CMakeFiles/lowkey.dir/src/debug.cpp.o -c /home/zshong/lowkey-compiler/src/debug.cpp
 
 CMakeFiles/lowkey.dir/src/debug.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lowkey.dir/src/debug.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/lowkey-compiler/src/debug.cpp > CMakeFiles/lowkey.dir/src/debug.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zshong/lowkey-compiler/src/debug.cpp > CMakeFiles/lowkey.dir/src/debug.cpp.i
 
 CMakeFiles/lowkey.dir/src/debug.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lowkey.dir/src/debug.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/lowkey-compiler/src/debug.cpp -o CMakeFiles/lowkey.dir/src/debug.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zshong/lowkey-compiler/src/debug.cpp -o CMakeFiles/lowkey.dir/src/debug.cpp.s
 
 CMakeFiles/lowkey.dir/src/memory.cpp.o: CMakeFiles/lowkey.dir/flags.make
-CMakeFiles/lowkey.dir/src/memory.cpp.o: /root/lowkey-compiler/src/memory.cpp
+CMakeFiles/lowkey.dir/src/memory.cpp.o: /home/zshong/lowkey-compiler/src/memory.cpp
 CMakeFiles/lowkey.dir/src/memory.cpp.o: CMakeFiles/lowkey.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/lowkey-compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/lowkey.dir/src/memory.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lowkey.dir/src/memory.cpp.o -MF CMakeFiles/lowkey.dir/src/memory.cpp.o.d -o CMakeFiles/lowkey.dir/src/memory.cpp.o -c /root/lowkey-compiler/src/memory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zshong/lowkey-compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/lowkey.dir/src/memory.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lowkey.dir/src/memory.cpp.o -MF CMakeFiles/lowkey.dir/src/memory.cpp.o.d -o CMakeFiles/lowkey.dir/src/memory.cpp.o -c /home/zshong/lowkey-compiler/src/memory.cpp
 
 CMakeFiles/lowkey.dir/src/memory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lowkey.dir/src/memory.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/lowkey-compiler/src/memory.cpp > CMakeFiles/lowkey.dir/src/memory.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zshong/lowkey-compiler/src/memory.cpp > CMakeFiles/lowkey.dir/src/memory.cpp.i
 
 CMakeFiles/lowkey.dir/src/memory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lowkey.dir/src/memory.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/lowkey-compiler/src/memory.cpp -o CMakeFiles/lowkey.dir/src/memory.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zshong/lowkey-compiler/src/memory.cpp -o CMakeFiles/lowkey.dir/src/memory.cpp.s
 
 CMakeFiles/lowkey.dir/src/value.cpp.o: CMakeFiles/lowkey.dir/flags.make
-CMakeFiles/lowkey.dir/src/value.cpp.o: /root/lowkey-compiler/src/value.cpp
+CMakeFiles/lowkey.dir/src/value.cpp.o: /home/zshong/lowkey-compiler/src/value.cpp
 CMakeFiles/lowkey.dir/src/value.cpp.o: CMakeFiles/lowkey.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/lowkey-compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/lowkey.dir/src/value.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lowkey.dir/src/value.cpp.o -MF CMakeFiles/lowkey.dir/src/value.cpp.o.d -o CMakeFiles/lowkey.dir/src/value.cpp.o -c /root/lowkey-compiler/src/value.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zshong/lowkey-compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/lowkey.dir/src/value.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lowkey.dir/src/value.cpp.o -MF CMakeFiles/lowkey.dir/src/value.cpp.o.d -o CMakeFiles/lowkey.dir/src/value.cpp.o -c /home/zshong/lowkey-compiler/src/value.cpp
 
 CMakeFiles/lowkey.dir/src/value.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lowkey.dir/src/value.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/lowkey-compiler/src/value.cpp > CMakeFiles/lowkey.dir/src/value.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zshong/lowkey-compiler/src/value.cpp > CMakeFiles/lowkey.dir/src/value.cpp.i
 
 CMakeFiles/lowkey.dir/src/value.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lowkey.dir/src/value.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/lowkey-compiler/src/value.cpp -o CMakeFiles/lowkey.dir/src/value.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zshong/lowkey-compiler/src/value.cpp -o CMakeFiles/lowkey.dir/src/value.cpp.s
 
 # Object files for target lowkey
 lowkey_OBJECTS = \
@@ -157,7 +157,7 @@ lowkey: CMakeFiles/lowkey.dir/src/memory.cpp.o
 lowkey: CMakeFiles/lowkey.dir/src/value.cpp.o
 lowkey: CMakeFiles/lowkey.dir/build.make
 lowkey: CMakeFiles/lowkey.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/root/lowkey-compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable lowkey"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/zshong/lowkey-compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable lowkey"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lowkey.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -169,6 +169,6 @@ CMakeFiles/lowkey.dir/clean:
 .PHONY : CMakeFiles/lowkey.dir/clean
 
 CMakeFiles/lowkey.dir/depend:
-	cd /root/lowkey-compiler/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/lowkey-compiler /root/lowkey-compiler /root/lowkey-compiler/build /root/lowkey-compiler/build /root/lowkey-compiler/build/CMakeFiles/lowkey.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/zshong/lowkey-compiler/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zshong/lowkey-compiler /home/zshong/lowkey-compiler /home/zshong/lowkey-compiler/build /home/zshong/lowkey-compiler/build /home/zshong/lowkey-compiler/build/CMakeFiles/lowkey.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/lowkey.dir/depend
 
