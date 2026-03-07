@@ -5,7 +5,7 @@
 #include "vm.h"
 
 int main(int argc, char* argv[]) {
-    VM* vm = new VM();
+    VM vm;
     Chunk* chunk = new Chunk();
     int constant = chunk->addConstant(1.2);
 
@@ -14,9 +14,8 @@ int main(int argc, char* argv[]) {
     chunk->write(OP_RETURN, 123);
 
     disassembleChunk(chunk, "test chunk");
-
+    vm.interpret(chunk);
     delete(chunk);
-    delete(vm);
 
     return 0;
 }

@@ -167,4 +167,6 @@ CMakeFiles/lowkey.dir/src/main.cpp.o: \
  /home/zshong/lowkey-compiler/src/opcode.h \
  /home/zshong/lowkey-compiler/src/value.h \
  /home/zshong/lowkey-compiler/src/debug.h \
- /home/zshong/lowkey-compiler/src/vm.h
+ /home/zshong/lowkey-compiler/src/vm.h /usr/include/c++/13/stack \
+ /usr/include/c++/13/deque /usr/include/c++/13/bits/stl_deque.h \
+ /usr/include/c++/13/bits/deque.tcc /usr/include/c++/13/bits/stl_stack.h

@@ -257,6 +257,7 @@ CMakeFiles/lowkey.dir/src/main.cpp.o: /home/zshong/lowkey-compiler/src/main.cpp 
   /usr/include/c++/13/bits/cpp_type_traits.h \
   /usr/include/c++/13/bits/cxxabi_forced.h \
   /usr/include/c++/13/bits/cxxabi_init_exception.h \
+  /usr/include/c++/13/bits/deque.tcc \
   /usr/include/c++/13/bits/exception.h \
   /usr/include/c++/13/bits/exception_defines.h \
   /usr/include/c++/13/bits/exception_ptr.h \
@@ -293,11 +294,13 @@ CMakeFiles/lowkey.dir/src/main.cpp.o: /home/zshong/lowkey-compiler/src/main.cpp 
   /usr/include/c++/13/bits/stl_algobase.h \
   /usr/include/c++/13/bits/stl_bvector.h \
   /usr/include/c++/13/bits/stl_construct.h \
+  /usr/include/c++/13/bits/stl_deque.h \
   /usr/include/c++/13/bits/stl_function.h \
   /usr/include/c++/13/bits/stl_iterator.h \
   /usr/include/c++/13/bits/stl_iterator_base_funcs.h \
   /usr/include/c++/13/bits/stl_iterator_base_types.h \
   /usr/include/c++/13/bits/stl_pair.h \
+  /usr/include/c++/13/bits/stl_stack.h \
   /usr/include/c++/13/bits/stl_uninitialized.h \
   /usr/include/c++/13/bits/stl_vector.h \
   /usr/include/c++/13/bits/streambuf.tcc \
@@ -320,6 +323,7 @@ CMakeFiles/lowkey.dir/src/main.cpp.o: /home/zshong/lowkey-compiler/src/main.cpp 
   /usr/include/c++/13/cwctype \
   /usr/include/c++/13/debug/assertions.h \
   /usr/include/c++/13/debug/debug.h \
+  /usr/include/c++/13/deque \
   /usr/include/c++/13/exception \
   /usr/include/c++/13/ext/alloc_traits.h \
   /usr/include/c++/13/ext/atomicity.h \
@@ -335,6 +339,7 @@ CMakeFiles/lowkey.dir/src/main.cpp.o: /home/zshong/lowkey-compiler/src/main.cpp 
   /usr/include/c++/13/numbers \
   /usr/include/c++/13/ostream \
   /usr/include/c++/13/pstl/pstl_config.h \
+  /usr/include/c++/13/stack \
   /usr/include/c++/13/stdexcept \
   /usr/include/c++/13/streambuf \
   /usr/include/c++/13/string \
@@ -674,6 +679,7 @@ CMakeFiles/lowkey.dir/src/value.cpp.o: /home/zshong/lowkey-compiler/src/value.cp
 CMakeFiles/lowkey.dir/src/vm.cpp.o: /home/zshong/lowkey-compiler/src/vm.cpp \
   /home/zshong/lowkey-compiler/src/chunk.h \
   /home/zshong/lowkey-compiler/src/common.h \
+  /home/zshong/lowkey-compiler/src/debug.h \
   /home/zshong/lowkey-compiler/src/opcode.h \
   /home/zshong/lowkey-compiler/src/value.h \
   /home/zshong/lowkey-compiler/src/vm.h \
@@ -683,6 +689,7 @@ CMakeFiles/lowkey.dir/src/vm.cpp.o: /home/zshong/lowkey-compiler/src/vm.cpp \
   /usr/include/c++/13/bits/allocator.h \
   /usr/include/c++/13/bits/concept_check.h \
   /usr/include/c++/13/bits/cpp_type_traits.h \
+  /usr/include/c++/13/bits/deque.tcc \
   /usr/include/c++/13/bits/exception.h \
   /usr/include/c++/13/bits/exception_defines.h \
   /usr/include/c++/13/bits/functexcept.h \
@@ -706,11 +713,13 @@ CMakeFiles/lowkey.dir/src/vm.cpp.o: /home/zshong/lowkey-compiler/src/vm.cpp \
   /usr/include/c++/13/bits/stl_algobase.h \
   /usr/include/c++/13/bits/stl_bvector.h \
   /usr/include/c++/13/bits/stl_construct.h \
+  /usr/include/c++/13/bits/stl_deque.h \
   /usr/include/c++/13/bits/stl_function.h \
   /usr/include/c++/13/bits/stl_iterator.h \
   /usr/include/c++/13/bits/stl_iterator_base_funcs.h \
   /usr/include/c++/13/bits/stl_iterator_base_types.h \
   /usr/include/c++/13/bits/stl_pair.h \
+  /usr/include/c++/13/bits/stl_stack.h \
   /usr/include/c++/13/bits/stl_uninitialized.h \
   /usr/include/c++/13/bits/stl_vector.h \
   /usr/include/c++/13/bits/uses_allocator.h \
@@ -723,6 +732,7 @@ CMakeFiles/lowkey.dir/src/vm.cpp.o: /home/zshong/lowkey-compiler/src/vm.cpp \
   /usr/include/c++/13/cstdio \
   /usr/include/c++/13/debug/assertions.h \
   /usr/include/c++/13/debug/debug.h \
+  /usr/include/c++/13/deque \
   /usr/include/c++/13/ext/alloc_traits.h \
   /usr/include/c++/13/ext/numeric_traits.h \
   /usr/include/c++/13/ext/type_traits.h \
@@ -730,6 +740,7 @@ CMakeFiles/lowkey.dir/src/vm.cpp.o: /home/zshong/lowkey-compiler/src/vm.cpp \
   /usr/include/c++/13/new \
   /usr/include/c++/13/numbers \
   /usr/include/c++/13/pstl/pstl_config.h \
+  /usr/include/c++/13/stack \
   /usr/include/c++/13/tuple \
   /usr/include/c++/13/type_traits \
   /usr/include/c++/13/vector \
@@ -828,6 +839,8 @@ CMakeFiles/lowkey.dir/src/vm.cpp.o: /home/zshong/lowkey-compiler/src/vm.cpp \
 
 /usr/include/c++/13/exception:
 
+/usr/include/c++/13/deque:
+
 /usr/include/c++/13/cwctype:
 
 /usr/include/c++/13/cwchar:
@@ -838,13 +851,17 @@ CMakeFiles/lowkey.dir/src/vm.cpp.o: /home/zshong/lowkey-compiler/src/vm.cpp \
 
 /usr/include/c++/13/cctype:
 
-/usr/include/c++/13/bits/stringfwd.h:
-
 /usr/include/c++/13/bits/string_view.tcc:
 
 /usr/include/c++/13/ostream:
 
 /usr/include/c++/13/bits/streambuf_iterator.h:
+
+/usr/include/c++/13/bits/stringfwd.h:
+
+/usr/include/c++/13/bits/stl_stack.h:
+
+/usr/include/c++/13/bits/stl_deque.h:
 
 /usr/include/c++/13/bits/ostream_insert.h:
 
@@ -951,6 +968,8 @@ CMakeFiles/lowkey.dir/src/vm.cpp.o: /home/zshong/lowkey-compiler/src/vm.cpp \
 /usr/include/alloca.h:
 
 /usr/include/errno.h:
+
+/usr/include/c++/13/stack:
 
 /usr/include/c++/13/bits/functional_hash.h:
 
@@ -1195,6 +1214,8 @@ CMakeFiles/lowkey.dir/src/vm.cpp.o: /home/zshong/lowkey-compiler/src/vm.cpp \
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/include/c++/13/bits/deque.tcc:
 
 /usr/include/x86_64-linux-gnu/bits/endian.h:
 

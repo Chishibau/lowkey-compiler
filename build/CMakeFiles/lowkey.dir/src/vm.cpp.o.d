@@ -83,4 +83,7 @@ CMakeFiles/lowkey.dir/src/vm.cpp.o: \
  /usr/include/c++/13/bits/max_size_type.h /usr/include/c++/13/numbers \
  /home/zshong/lowkey-compiler/src/chunk.h \
  /home/zshong/lowkey-compiler/src/opcode.h \
- /home/zshong/lowkey-compiler/src/value.h
+ /home/zshong/lowkey-compiler/src/value.h \
+ /home/zshong/lowkey-compiler/src/debug.h /usr/include/c++/13/stack \
+ /usr/include/c++/13/deque /usr/include/c++/13/bits/stl_deque.h \
+ /usr/include/c++/13/bits/deque.tcc /usr/include/c++/13/bits/stl_stack.h
